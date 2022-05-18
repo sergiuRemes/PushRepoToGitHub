@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Author: Sergiu Remes, PushRepoToGitHub project">
+    <title>How to push my repository to GitHub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+    <style>
+        @-ms-viewport{width:device-width}html{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;-webkit-text-size-adjust: auto;}
+    </style>
+    <link rel="stylesheet" href="./styles.css" type="text/css" aria-disabled="true" defer> 
+</head>
+<body>
+                            <!-- Header -->
+    <header>
+        <nav>
+            <div class="contact">
+                <p>Contact the author of this page:</p>
+                <h1>Sergiu Remes</h1>
+            </div>          
+            <ul>
+                <li><a href="https://github.com/sergiuRemes"><img src="./src/logos/github.webp" width="60px" height="60px" alt="GitHub logo" ></a></li>
+                <li><a href="https://www.linkedin.com/in/sergiu-remes/"><img src="./src//logos/linkedin.webp" width="60px" height="60px" alt="LinkedIn logo"></a></li>
+           </ul>
+        </nav>
+    </header>
+                            <!-- Main -->
+    <main>
+        <h2 id="logo">How to push repository to GitHub</h2>
+        <div id="no1">
+            <p>Go to your GitHub home page.</p>
+            <p>Click on your profile icon, then click <em class="repo1">Your repositories.</em></p>
+            <img src="./src/1 github your homepage.png" height="474px" width="202px" >
+        </div>
+        <div id="no2">
+            <p>Create your folder name by typing in the <em>Repository name*</em> tag your "<em class="repo1">FolderName</em>".</p>
+            <p>( This needs to match your folder name from your PC. )</p>
+            <img src="./src/2 create repo name.png"height="242px" width="512px"  >
+        </div>
+        <div id="no3">
+            <p>Click on the <em id="repo2">Create repository</em> button</p>
+            <p>Now go to your local folder.</p>
+            <img src="./src/3 click create.png" height="585px" width="452px" >
+        </div>
+        <div id="no4">
+            <p>Here you either can have an empty folder, or a folder containing a working project.</p>
+            <p>Either way, you can still add now ( or later through command line ) the files that you would like to publish on GitHub.</p>
+            <img src="./src/4 add files to folder.png" height="360px" width="640px" >
+        </div>
+        <div id="no5">
+            <p>Open your working <strong>directory</strong> in your code editor. ( I am using VirtualStudioCode Insiders )</p>
+            <img src="./src/5 open folder in vsc.png" height="404px" width="640px" >
+        </div>
+        <div id="no6">
+            <p>Open the terminal in VirtualStudioCode. ( or other Command Prompt )</p>
+            <img src="./src/6 open terminal.png" height="404px" width="640px" >
+            
+        </div>      
+        <div id="no7">
+            <p>Attention! If you did not open the terminal in VirtualStudioCode, then you have to make sure that your root is in the <em>your</em>"<strong>FolderName</strong>". (ex: <strong id="str">C:\MyProjects\FolderName</strong> )</p>
+            <p>Start with <em class="git">git</em> init to initialize the repository.</p>
+            <p>Using the command "<em class="git">git</em> status" you can anytime check the status of your repository. </p>
+            <p>Now you want to type "<em class="git">git</em> add <srong>.</srong>" to add all your files to the repository. The "dot"( <strong>.</strong> ) is a selector for ALL the files in the directory.</p>
+            <img src="./src/7.png" height="360px" width="640px" >
+        </div>   
+        <div id="no8">
+            <p>Commit your work and use a 'status message' to log the state of your project by typing "<em class="git">git</em> commit -m"your message"".</p>
+            <p>Using "<em class="git">git</em> log" will show you the status of your work.</p>
+            <img src="./src/7.1.png" height="360px" width="640px" >
+        </div>       
+        <div id="no9">
+            <p>Copy the 3 lines of code from the<em>..or push an existing repository from the command line</em> tag. Can copy one by one or all together.</p>
+            <p>Paste the commands in the terminal and press ENTER. Now you will see the text <em>Your branch is up to date with 'origin/main'. Nothing to commit, working tree clean.</em>.</p>
+            <p>That message means that your folder and it's contents has been 'commited' to the repository.</p>
+            <img src="./src/8.png" height="400px" width="800px" >  
+            <h3>AND NOW THE MAGIC.</h3>
+            <br>
+            <aside>
+                <p>Go back to your GitHub page and hit refresh.</p>
+                <p>Good job! Your local repository is now on GitHub.</p>
+            </aside>
+        </div>
+        <div id="no10">
+            <p>But what if your folder was empty when you 'commited' your repository? Let say it was, then you created your files and did some work. Now you want to 'publish' it.</p>
+            <p>Just open back the terminal in your ( root ) working directory</p>
+            <p>You can check your project status with "<em class="git">git</em> status" command. Marked with red you will see all the files that have been modified ( including added/deleted ) since your last commit.</p>
+            <p>Using "<em class="git">git</em> add <srong>.</srong>" will set your files ready to commit.</p>
+            <p></p>
+            <img src="./src/9 check code updates.png" height="360px" width="640px" >
+        </div>
+        <div id="no11">
+            <h3>Wondering how to delete a repository pushed by mistake or unwanted?</h3><br>
+            <p>Click on "Your profile icon"/<em>Your repositories/"unwanted repo name"</em></p>
+            <p>Click on <em id="set">Settings</em></p>
+            <p>Scroll down to the bottom of the page...</p>
+            <img src="./src/foldername  - settings.png" height="297px" width="845px" >
+        </div>
+        <div id="no12">
+            <p>...where you will find "<em id="del">Delete this repository</em>" button. On click you will be asked for a security password and that's it.</p>
+            <p>You just learned how to publish and how to delete a repository using command line.</p>
+            <img src="./src/delete repo.png" height="297px" width="640px" >
+        </div>       
+    </main>
+                            <!-- Footer -->
+    <footer>
+        <span>Sergiu Remes © 2022 <br>
+                                All Rights Reserved<br></span> 
+    </footer>
+
+        
+<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+</body>
+</html>

@@ -1,0 +1,142 @@
+html {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;  
+    display: flex;
+    justify-content: center;
+    flex-shrink: initial;
+    flex-wrap: wrap;
+    flex-direction: column;
+} 
+
+nav {
+    width: 100%;
+    display: flex;
+    font-size: 30px;
+}
+
+h1 {
+    font-family: 'Macondo', cursive;
+}
+
+.contact {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: xx-large;
+    margin-left: 50px;
+}
+
+.contact p {
+    font-size: large;
+}
+
+ul {
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-left: 0px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    flex-shrink: initial;
+    justify-content: center;
+}
+
+#logo {
+    margin-top: 0px;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 120px;
+    align-items: center;
+    font-size: xxx-large;
+    display: flex;
+    flex-shrink: initial;
+}
+
+.repo1 {
+    background-color: #24a0ee;
+    color: white;
+   
+}
+
+#repo2 {
+    background-color: green;
+    color: white;
+    
+}
+
+.git {
+    color: rgb(196, 196, 39);
+}
+
+#set {
+    background-color:lightgray;
+}
+
+#del {
+    background-color: darkred;
+    color: white;
+}
+
+#str {
+    color: darkblue;
+}
+
+main div {
+    background-color: bisque;
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    flex-shrink: initial;
+    width: 70%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+span {
+    margin: 10px;
+}
+
+#no6 {
+    width: 85%;
+}
+
+#no9 {
+    width: 80%;
+}
+
+#no11 {
+    width: 85%;
+}
+
+#no12 {
+    margin-bottom: 50px;
+    width: 80%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    height: 90px;
+}
